@@ -1,4 +1,31 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #F2F2F2;
+    margin-right: 30px;
+}
+
+/*navigation*/
+header { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    font-size: 1em;
+    color: #0065FC ;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: cornflowerblue ;
+    border-top: 3px solid #0065FC;
 }
