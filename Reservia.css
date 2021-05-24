@@ -28,6 +28,20 @@ nav a {
 }
 nav a:hover {
     color: cornflowerblue ;
-    border-top: 3px solid #0065FC;
+    border-top: 3px solid cornflowerblue;
     padding-top: 20px;
+}
+
+
+input {
+    border: none;
+    height: 40px;
+}
+
+button {
+    height: 40px;
+    border: 1px #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    color: white;
 }
