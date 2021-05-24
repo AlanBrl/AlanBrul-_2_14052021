@@ -6,6 +6,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link  rel="stylesheet" href="Reservia.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <div id="content">
@@ -19,8 +20,18 @@
                         <li><a href="S'inscire.html">S'inscrire</a></li>
                     </ul>
                 </nav>
-            <!--trouver hebergement-->
             </header>
+            <!--trouver hebergement-->
+            <h2>Trouvez votre Hébergements pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en plaine nature</p>
+            <form method="post" action="traitement.php">
+                <p>
+                    <label for="ville"> <i class="fas fa-map-marker-alt"> </i></label>
+                    <input type="search" name="ville" id="ville">
+
+                    <button>Rechercher</button>
+                </p>
+            </form>
             <!--hebegement a Marseille-->
             <!--les plus populaires-->
             <!--Activités a Marseille-->
