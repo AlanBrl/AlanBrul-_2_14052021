@@ -1,4 +1,4 @@
-#body {
+body {
     font-family: 'Raleway', sans-serif;
     background-color: #F2F2F2;
     margin-right: 30px;
@@ -83,5 +83,8 @@ button {
 
 #recherche nav a:hover {
     color: #0065FC;
-    
+}
+#recherche nav i{
+    background-color: cornflowerblue;
+    padding: 5%;
 }
