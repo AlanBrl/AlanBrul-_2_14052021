@@ -37,9 +37,11 @@ header nav a:hover {
     border-top: 3px solid #0065FC;
     padding-top: 20px;
 }
+
 #sign-up{
     font-weight: bold;
-    color: #0065FC;}
+    color: #0065FC;
+}
 
 /*Recherche*/ 
 
@@ -48,7 +50,7 @@ input {
     height: 40px;
 }
 
-#recherche button {
+#search-button {
     height: 40px;
     border: 1px #0065FC;
     border-radius: 0px 10px 10px 0px;
@@ -61,37 +63,47 @@ input {
     
 }
 #recherche nav{
+    display: flex;
+    align-items: center;
+}
+
+#recherche nav p {
     font-weight: bold;
+    margin-right: 12px;
+}
+
+#filters {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
-#recherche nav ul {
-    list-style-type: none;
+
+.filter-button {
+    border-radius: 20px;
+    border: 1px solid black;
     display: flex;
+    padding: 0 8px 0 0;
+    align-items: center;
+    height: 34px;
+    margin-right: 12px;
+    margin-top: 8px;
 }
 
-#recherche nav li{
-    margin-right: 30px;
+.filter-button:hover {
+    cursor: pointer;
+    background: #0065FC;
+    color: white;
 }
 
-#recherche nav a {
-    color:black;
-     text-decoration: none;
-     border: 1px grey solid;
-     border-radius: 20px;
-     padding-right: 5px;
-     padding-top: 5px;
-     padding-bottom: 4px;
-}
-
-#recherche nav a:hover {
-    color: #0065FC;
-}
-#recherche nav i{
+.filter-button i{
     background-color: #a1c5fc;
     border-radius: 15px;
-    padding: 5% ;
+    height: 24px;
+    width: 24px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
 }
 #info{
     display: flex;

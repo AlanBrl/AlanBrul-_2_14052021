@@ -33,18 +33,17 @@
                 <p>
                     <label for="ville"> <i class="fas fa-map-marker-alt"> </i></label>
                     <input type="search" name="ville" id="ville" placeholder="Ex : Marseille, France">
-
-                    <button>Rechercher</button>
+                    <button id="search-button">Rechercher</button>
                 </p>
                 </form>
                 <nav>
-                    <ul>
-                        <li>Filtres</li>
-                        <li><a href="Économique"><i class="fas fa-money-bill-wave"></i> Économique</a></li>
-                        <li><a href="Familial"><i class="fas fa-child"></i> Familial</a></li>
-                        <li><a href="Romantique"><i class="fas fa-heart"></i> Romantique</a></li>
-                        <li><a href="Animaux autorisés"><i class="fas fa-dog"></i> Animaux autorisés</a></li>
-                    </ul>
+                    <p>Filtres</p>
+                    <div id="filters">
+                        <button title="Économique" class="filter-button"><i class="fas fa-money-bill-wave"></i> Économique</button>
+                        <button title="Familial" class="filter-button"><i class="fas fa-child"></i> Familial</button>
+                        <button title="Romantique" class="filter-button"><i class="fas fa-heart"></i> Romantique</button>
+                        <button title="Animaux autorisés" class="filter-button"><i class="fas fa-dog"></i> Animaux autorisés</button>
+                    </div>
                 </nav>
                 <div id="info">
                     <i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
