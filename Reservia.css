@@ -79,7 +79,7 @@ input {
 
 .filter-button {
     border-radius: 20px;
-    border: 1px solid black;
+    border: 1px solid gray;
     display: flex;
     padding: 0 8px 0 0;
     align-items: center;
@@ -95,7 +95,7 @@ input {
 }
 
 .filter-button i{
-    background-color: #a1c5fc;
+    background-color: #bfd8fd;
     border-radius: 15px;
     height: 24px;
     width: 24px;
@@ -104,6 +104,7 @@ input {
     justify-content: center;
     align-items: center;
     margin-right: 8px;
+    color: #0065FC;
 }
 #info{
     display: flex;
