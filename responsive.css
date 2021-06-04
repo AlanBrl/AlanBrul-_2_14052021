@@ -1,0 +1,43 @@
+@media (max-width: 600px){
+    #content{
+        width: auto;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+    #logo{
+        width: 100%;
+        padding-top: 20px;
+    }
+    nav{
+        width: 100%;
+    }
+    #nav-list{
+        padding-left: 0px;
+        width: 100%;
+    }
+    #nav-list li{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-top: none;
+        border-bottom: solid 3px #0065FC;
+    }
+    #nav-list li:nth-child(1){
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid 3px #0065FC;
+        width: 300px;
+    }
+    #nav-list li:nth-child(2){
+        width: 300px;
+    }
+    #nav-list li:nth-child(3){
+        position: relative;
+        top: -60px;
+        left: -50px;
+        border-bottom: none;
+        width: 0px;
+        min-width: 0px;
+    }
+
+}
