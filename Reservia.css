@@ -53,16 +53,21 @@ header nav a:hover {
 }
 
 /*Recherche*/ 
-
+.search{
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+}
 input {
     border: none;
-    height: 40px;
+    height: 100%;
 }
 
 #search-button {
-    height: 40px;
+    height: 100%;
+    width: 150px;
     border: 1px #0065FC;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
     color: white;
     cursor: pointer;
