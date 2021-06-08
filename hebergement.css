@@ -68,11 +68,11 @@ aside{
 }
 .meilleurs img{
     border-radius: 20px 0px 0px 20px;
-    height: 100%;
-    object-fit: cover;
-}
-.meilleurs .image{
+    height: 135px;
     width: 130px;
-    height: 140px;
+    padding-top: 0px;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px;
 }
