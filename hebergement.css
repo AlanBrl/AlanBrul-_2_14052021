@@ -76,3 +76,24 @@ aside{
     float: left;
     margin-right: 15px;
 }
+/*responsive section*/
+@media (max-width: 600px ){
+    section{
+        flex-direction: column-reverse;
+    }
+    article, aside{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #meilleurs-hébergements{
+        width: 100%;
+    }
+    .meilleurs{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .hébergements{
+        width: 100%;
+    }
+}
