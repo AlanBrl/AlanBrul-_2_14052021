@@ -219,4 +219,13 @@ h3{
         width: 0px;
         min-width: 0px;
     }
+    /* responsive footer */
+    #end-footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .propos ul, .Nos-hébergements ul, .Assistance ul{
+        width: 100%;
+    }
 }

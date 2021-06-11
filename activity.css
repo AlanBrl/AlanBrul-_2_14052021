@@ -66,3 +66,33 @@
 #activity-6 h3{
     margin-top: 55px;
 }
+/* respoinsive activity*/
+@media (max-width: 600px){
+    #activités{
+        width: 100%;
+    }
+    #activity-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr 6fr 6fr 6fr 6fr 6fr;
+        padding: 0px 37px 0px 31px;
+    }
+    #activity-1, #activity-2, #activity-3, #activity-5, #activity-4, #activity-6{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #activity-2{
+        grid-row: 2/3;
+    }
+    #activity-3{
+        grid-row: 3/4;
+    }
+    #activity-5{
+        grid-row: 4/5;
+    }
+    #activity-4{
+        grid-row: 5/6;
+    }
+    #activity-6{
+        grid-row: 6/7;
+    }
+}
