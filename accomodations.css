@@ -63,6 +63,9 @@ article{
     margin-right: 20px;
     flex: 3;
 }
+.more-button{
+    border: none;
+}
 aside{
     flex: 1;
     position: relative;
