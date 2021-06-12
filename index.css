@@ -35,11 +35,11 @@ body {
     border-top: 3px solid #0065FC;
     padding-top: 20px;
 }
-#sign-up {
+#navbar #sign-up{
     font-weight: bold;
     color: #0065FC;
 }
-#sign-up:hover{
+#navbar #sign-up:hover{
     border: none;
 }
 
