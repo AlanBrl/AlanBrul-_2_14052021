@@ -59,15 +59,15 @@ input {
     border: none;
     height: 100%;
 }
-
 #search-button {
-    height: 100%;
-    width: 150px;
+    height: 50px;
+    width: 135px;
     border: 1px #0065FC;
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 #recherche{
     font-size:medium;
