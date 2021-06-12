@@ -95,10 +95,20 @@ aside{
 @media (max-width: 600px ){
     section{
         flex-direction: column-reverse;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     article, aside{
         width: 100%;
         margin-bottom: 15px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    ul #meilleurs-liste{
+        padding-left: 0px;
+    }
+    ul#Liste-hébergements{
+        padding-left: 0px;
     }
     #meilleurs-hébergements{
         width: 100%;
