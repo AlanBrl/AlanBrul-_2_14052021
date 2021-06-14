@@ -67,7 +67,7 @@
     margin-top: 55px;
 }
 /* respoinsive activity*/
-@media (max-width: 600px){
+@media (max-width: 768px){
     #activités{
         width: 100%;
     }

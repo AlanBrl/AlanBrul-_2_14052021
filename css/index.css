@@ -161,7 +161,7 @@ h3{
 
 
 /*responsive #navbar*/ 
-@media (max-width: 600px){
+@media (max-width: 768px){
     #content{
         width: auto;
     }

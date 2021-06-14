@@ -92,7 +92,7 @@ aside{
     margin-right: 15px;
 }
 /*responsive section*/
-@media (max-width: 600px ){
+@media (max-width: 768px ){
     section{
         flex-direction: column-reverse;
         margin-left: 0px;
@@ -121,4 +121,7 @@ aside{
     .hébergements{
         width: 100%;
     }
+}
+@media (min-width: 768px) and (max-width: 991px ){
+    
 }
