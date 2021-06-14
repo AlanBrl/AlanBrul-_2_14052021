@@ -66,8 +66,9 @@
 #activity-6 h3{
     margin-top: 55px;
 }
-/* respoinsive activity*/
+/*responsive mobile*/
 @media (max-width: 768px){
+    /* respoinsive activity*/
     #Activités{
         width: 100%;
     }
@@ -118,4 +119,8 @@
    #activity-6 h3{
        margin-top:20px
    }
+}
+/*responsive tablette*/
+@media (min-width: 768px) and (max-width: 991px ){
+    
 }
