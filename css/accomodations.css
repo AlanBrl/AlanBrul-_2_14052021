@@ -104,11 +104,11 @@ aside{
         margin-left: 0px;
         padding-left: 0px;
     }
-    ul #meilleurs-liste{
-        padding-left: 0px;
+    ul#meilleurs-liste{
+        padding: 0px;
     }
     ul#Liste-hébergements{
-        padding-left: 0px;
+        padding: 0px;
     }
     #meilleurs-hébergements{
         width: 100%;
@@ -120,6 +120,9 @@ aside{
     }
     .hébergements{
         width: 100%;
+    }
+    aside#meilleurs-hébergements{
+        padding:0px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px ){
