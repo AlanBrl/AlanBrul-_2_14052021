@@ -37,14 +37,14 @@
      color: black;
      text-decoration: none;
  }
- .etoiles{
+ .stars{
      color: #0065FC;
      margin-bottom: 4px;
  }
  .star-empty{
      color: rgb(202, 202, 202);
  }
- .info-hebergements{
+ .accomodation-info{
      padding-left: 15px;
  }
 .accomodations{
