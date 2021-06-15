@@ -235,8 +235,16 @@ body{
     #propos, #Nos-hébergements, #Assistance{
         width: 100%;
     }
+    #propos h3, #Nos-hébergements h3, #Assistance h3{
+        margin-left: 0px;
+    }
+    #propos ul, #Nos-hébergements ul, #Assistance ul{
+        padding-left: 0px;
+    }
 }
 /*responsive tablette*/
-@media (min-width: 768px) and (max-width: 991px ){
-    
+@media (min-width: 768px) and (max-width: 1024px ){
+    #content{
+        width: auto;
+    }
 }
