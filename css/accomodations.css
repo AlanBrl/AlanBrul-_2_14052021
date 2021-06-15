@@ -127,11 +127,19 @@ aside{
     }
 }
 /*responsive tablette*/
-@media (min-width: 768px) and (max-width: 1024px ){
+@media (min-width: 768px) and (max-width: 1024px){
     section{
         flex-direction: column-reverse;
         width: 100%;
         align-items: center;
     }
-    
+    article, aside{
+        width: 100%;
+    }
+    ul#meilleurs-liste{
+        padding-left: 0px;
+    }
+    ul#Liste-hébergements{
+        padding-left: 0px;
+    }
 }
