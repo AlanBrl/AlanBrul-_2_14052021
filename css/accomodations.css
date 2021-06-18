@@ -29,6 +29,9 @@
     display: flex;
     flex-wrap: wrap;
  }
+ ul#accomodations-list{
+    padding: 0px;
+ }
  .accomodation img{
     border-radius: 20px 20px 0px 0px;
     width: 100%;
@@ -78,6 +81,9 @@ aside{
 .popular{
     width: 350px;
     height: 140px;
+}
+ul#popular-list{
+    padding:0px;
 }
 .popular img{
     border-radius: 20px 0px 0px 20px;
