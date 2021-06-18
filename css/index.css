@@ -50,10 +50,13 @@ body {
 }
 
 /*Recherche*/ 
+.fas.fa-map-marker-alt{
+    background-color: #f2f2f2;
+}
 .search{
     height: 50px;
     width: 400px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 input {
     border: none;
@@ -69,16 +72,16 @@ input {
     cursor: pointer;
     font-weight: bold;
 }
-#recherche{
+#town-search{
     font-size:medium;
     
 }
-#recherche nav{
+#town-search nav{
     display: flex;
     align-items: center;
 }
 
-#recherche nav p {
+#town-search nav p {
     font-weight: bold;
     margin-right: 12px;
 }
@@ -214,7 +217,10 @@ body{
         border-top: none;
         border-bottom: solid 3px #0065FC;
         padding-bottom: 10px;
-        width: 150%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
     }
     #nav-list li:nth-child(3){
         position: relative;
@@ -225,12 +231,19 @@ body{
         min-width: 0px;
     }
     /* responsive search-bar*/
-
+    .search{
+        width: 330px;
+        margin: 16px 0px;
+    }
+    #town-search form{
+        width: 95%;
+    }
     /* responsive footer */
     #end-footer{
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding-top: 40px;
     }
     #propos, #Nos-hébergements, #Assistance{
         width: 100%;
@@ -244,7 +257,13 @@ body{
 }
 /*responsive tablette*/
 @media (min-width: 768px) and (max-width: 1024px ){
-    #content{
+    body{
         width: auto;
+    }
+    #content{
+        width: 100%;
+    }
+    header{
+        width: 100%;
     }
 }

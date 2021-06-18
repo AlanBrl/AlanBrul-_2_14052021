@@ -45,16 +45,18 @@
     height: 235px;
 }
 #activity-2 img{
-    height: 180px;
+    height: 200px;
 }
 #activity-2 h3{
-    margin-top: 60px;
+    margin-top: 70px;
 }
 #activity-3{
     grid-row: 3/4;
+    height: 180px;
 }
 #activity-5{
     grid-row: 1/2;
+    height: 180px ;
 }
 #activity-6{
     grid-row: 2/4;
@@ -87,7 +89,7 @@
         grid-row: 1/2;
         margin: 0px;
         height: 190px;
-        width: 100%;
+        width: 95%;
     }
     #activity-2{
         grid-row: 2/3;
