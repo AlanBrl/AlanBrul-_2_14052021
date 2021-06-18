@@ -1,4 +1,4 @@
-.accomodation, .meilleurs{
+.accomodation, .popular{
     background-color: #f2f2f2;
     border: solid 5px #ffffff;
     border-radius: 25px;
@@ -70,16 +70,16 @@ aside{
     padding-top: 0px;
     background-color: #f2f2f2;
 }
-#titre h2{
+#title h2{
     display: flex;
     justify-content: space-between;
     margin: 0px;
 }
-.meilleurs{
+.popular{
     width: 350px;
     height: 140px;
 }
-.meilleurs img{
+.popular img{
     border-radius: 20px 0px 0px 20px;
     height: 135px;
     width: 130px;
@@ -103,16 +103,16 @@ aside{
         margin-left: 0px;
         padding-left: 0px;
     }
-    ul#meilleurs-liste{
+    ul#popular-list{
         padding: 0px;
     }
     ul#accomodations-list{
         padding: 0px;
     }
-    #meilleurs-hébergements{
+    #popular-accomodations{
         width: 100%;
     }
-    .meilleurs{
+    .popular{
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -120,7 +120,7 @@ aside{
     .accomodation{
         width: 100%;
     }
-    aside#meilleurs-hébergements{
+    aside#popular-accomodations{
         padding:0px;
     }
 }
@@ -134,7 +134,7 @@ aside{
     article, aside{
         width: 100%;
     }
-    ul#meilleurs-liste{
+    ul#popular-list{
         padding-left: 0px;
     }
     ul#accomodations-list{
