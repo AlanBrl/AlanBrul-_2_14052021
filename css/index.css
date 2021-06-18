@@ -231,12 +231,19 @@ body{
         min-width: 0px;
     }
     /* responsive search-bar*/
-
+    .search{
+        width: 330px;
+        margin: 16px 0px;
+    }
+    #town-search form{
+        width: 95%;
+    }
     /* responsive footer */
     #end-footer{
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding-top: 40px;
     }
     #propos, #Nos-hébergements, #Assistance{
         width: 100%;
@@ -254,6 +261,9 @@ body{
         width: auto;
     }
     #content{
+        width: 100%;
+    }
+    header{
         width: 100%;
     }
 }
