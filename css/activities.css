@@ -69,7 +69,7 @@
     margin-top: 55px;
 }
 /*responsive mobile*/
-@media (max-width: 768px){
+@media (max-width: 767px){
     /* respoinsive activity*/
     #Activités{
         width: 100%;
@@ -123,6 +123,6 @@
    }
 }
 /*responsive tablette*/
-@media (min-width: 768px) and (max-width: 1024px ){
+@media (min-width: 767px) and (max-width: 1024px ){
     
 }
