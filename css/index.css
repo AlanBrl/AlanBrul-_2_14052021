@@ -172,7 +172,7 @@ h3{
 }
 
 /*Responsive mobile*/
-@media (max-width: 768px){
+@media (max-width: 767px){
 body{
     padding: 10px;
 }
@@ -286,14 +286,18 @@ body{
     }
 }
 /*responsive tablette*/
-@media (min-width: 768px) and (max-width: 1024px ){
+@media (min-width: 767px) and (max-width: 1024px ){
     body{
-        width: auto;
+        width: 100%;
+        padding: 0px;
     }
     #content{
         width: 100%;
     }
     header{
+        width: 100%;
+    }
+    #end-footer{
         width: 100%;
     }
 }
