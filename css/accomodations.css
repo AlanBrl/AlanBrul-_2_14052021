@@ -102,7 +102,7 @@ ul#popular-list{
     margin-right: 15px;
 }
     /*responsive mobile*/
-@media (max-width: 768px ){
+@media (max-width: 767px ){
     /*responsive section*/
     section{
         flex-direction: column-reverse;
@@ -138,7 +138,7 @@ ul#popular-list{
     }
 }
 /*responsive tablette*/
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 767px) and (max-width: 1024px){
     section{
         flex-direction: column-reverse;
         width: 100%;
@@ -149,8 +149,19 @@ ul#popular-list{
     }
     ul#popular-list{
         padding-left: 0px;
+        display: flex;
     }
     ul#accomodations-list{
         padding-left: 0px;
+    }
+    .popular img{
+        width: 75px;
+    }
+    .popular .accomodation-info h3{
+        font-size: large;
+        margin: 0px;
+    }
+    .popular .accomodation-info{
+       font-size: small;
     }
 }
