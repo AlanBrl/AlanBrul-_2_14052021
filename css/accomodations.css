@@ -9,7 +9,7 @@
 .accomodation {
     background-color: #f2f2f2;
     height: 200px;
-    width: 250px;
+    width: 30%;
 }
 
  ul{
@@ -147,12 +147,18 @@ ul#popular-list{
     article, aside{
         width: 100%;
     }
+    article{
+        margin: 0px;
+    }
     ul#popular-list{
         padding-left: 0px;
         display: flex;
     }
     ul#accomodations-list{
         padding-left: 0px;
+    }
+    .popular{
+        width: 30%;
     }
     .popular img{
         width: 75px;
@@ -163,5 +169,8 @@ ul#popular-list{
     }
     .popular .accomodation-info{
        font-size: small;
+    }
+    .accomodation{
+        width: 29%;
     }
 }
