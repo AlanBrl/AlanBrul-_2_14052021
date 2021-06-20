@@ -158,7 +158,7 @@ h3{
     padding-top: 100px;
     background-color: #f2f2f2;
 }
-#propos, #Nos-hébergements, #assistance{
+#about, #our-accommodations, #assistance{
     width: 33%;
     text-align: left;
 }
@@ -275,13 +275,13 @@ body{
         width: 100%;
         padding-top: 40px;
     }
-    #propos, #Nos-hébergements, #Assistance{
+    #about, #our-accommodations, #assistance{
         width: 100%;
     }
-    #propos h3, #Nos-hébergements h3, #Assistance h3{
+    #about h3, #our-accommodations h3, #assistance h3{
         margin-left: 0px;
     }
-    #propos ul, #Nos-hébergements ul, #Assistance ul{
+    #about ul, #our-accommodations ul, #assistance ul{
         padding-left: 0px;
     }
 }
