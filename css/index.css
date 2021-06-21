@@ -180,9 +180,7 @@ h3{
 
 /*Responsive mobile*/
 @media (max-width: 767px){
-body{
-    padding: 10px;
-}
+
     #content{
         width: auto;
     }
@@ -280,16 +278,17 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding-top: 40px;
+        padding-top: 30px;
     }
     #about, #our-accomodations, #assistance{
         width: 100%;
     }
     #about h3, #our-accomodations h3, #assistance h3{
         margin-left: 0px;
+        padding-left: 10px;
     }
     #about ul, #our-accomodations ul, #assistance ul{
-        padding-left: 0px;
+        padding-left: 10px;
     }
 }
 /*responsive tablette*/

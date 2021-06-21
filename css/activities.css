@@ -105,6 +105,7 @@ article#Activités h3{
         padding: 0px;
         width: 100%;
         margin: 0px;
+        padding-bottom: 50px;
     }
     #activity-1, #activity-2, #activity-3, #activity-5, #activity-4, #activity-6{
         grid-column: 1/2;
@@ -154,6 +155,7 @@ article#Activités h3{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         padding: 0px;
+        padding-bottom: 30px;
         width: 100%;
         margin: 0px;
         row-gap: 16px;

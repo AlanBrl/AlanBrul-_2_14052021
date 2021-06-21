@@ -64,7 +64,7 @@ section{
     margin-bottom: 20px;
     padding-top: 30px;
 }
-article#town-accomodations{
+article.town-accomodations{
     margin-right: 20px;
     flex: 3;
     background-color: #f2f2f2;
@@ -79,6 +79,7 @@ aside{
     position: relative;
     padding: 35px 30px 0px 30px;
     background-color: #f2f2f2;
+    border-radius: 25px;
 }
 #title h2{
     display: flex;
@@ -110,11 +111,12 @@ ul#popular-list{
         margin-left: 0px;
         padding-left: 0px;
     }
-    article, aside{
+    article.town-accomodations, aside#popular-accomodations{
         width: 100%;
         margin-bottom: 15px;
         margin-left: 0px;
         padding-left: 0px;
+        border-radius: 0px;
     }
     ul#popular-list{
         padding: 0px;
@@ -134,8 +136,12 @@ ul#popular-list{
     .accomodation{
         width: 95%;
     }
+    article.town-accomodations{
+        padding: 10px;
+        background-color: #ffffff;
+    }
     aside#popular-accomodations{
-        padding:0px;
+        padding:10px;
     }
 }
 /*responsive tablette*/
@@ -148,8 +154,14 @@ ul#popular-list{
     article, aside{
         width: 100%;
     }
-    article{
+    article.town-accomodations{
         margin: 0px;
+        background-color: #ffffff;
+        padding: 10px;
+    }
+    aside#popular-accomodations{
+        padding: 10px;
+        border-radius: 0px;
     }
     ul#popular-list{
         padding-left: 0px;
