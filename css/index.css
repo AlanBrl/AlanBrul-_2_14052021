@@ -180,7 +180,11 @@ h3{
 
 /*Responsive mobile*/
 @media (max-width: 767px){
-
+    body{
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 12px;
+    }
     #content{
         width: auto;
     }
@@ -272,6 +276,9 @@ h3{
     }
     #town-search form{
         width: 95%;
+    }
+    #town-search{
+        padding-left: 10px;
     }
     /* responsive footer */
     #end-footer{
