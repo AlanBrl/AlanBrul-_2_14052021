@@ -56,7 +56,7 @@ body {
 .fas.fa-map-marker-alt{
     background-color: #f2f2f2;
     padding: 15px;
-    border-radius: 0 0 15px;
+    border-radius: 15px 0px 0px 15px;
 }
 .search{
     height: 50px;
@@ -97,6 +97,7 @@ input {
 #town-search nav p {
     font-weight: bold;
     margin-right: 12px;
+    margin-bottom: 0px;
 }
 
 #filters {
@@ -137,6 +138,7 @@ input {
 #info{
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 #info i.fas.fa-info{
     height: 16px;
@@ -160,7 +162,7 @@ h3{
 /*Footer*/
 #end-footer {
     display: flex;
-    padding-top: 100px;
+    padding-top: 20px;
     background-color: #f2f2f2;
 }
 #about, #our-accomodations, #assistance{
