@@ -128,10 +128,14 @@ ul#popular-list{
         width: 100%;
     }
     .popular{
-        width: 95%;
+        width: 92%;
         padding: 0px;
         margin: 0px;
         margin-bottom: 20px;
+    }
+    #title .fa-chart-line{
+        position: relative;
+        left: -25px;
     }
     .accomodation{
         width: 95%;
