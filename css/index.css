@@ -97,6 +97,7 @@ input {
 #town-search nav p {
     font-weight: bold;
     margin-right: 12px;
+    margin-bottom: 0px;
 }
 
 #filters {
@@ -137,6 +138,7 @@ input {
 #info{
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 #info i.fas.fa-info{
     height: 16px;
