@@ -82,7 +82,12 @@ input {
 }
 #town-search{
     font-size:medium;
-    
+}
+#town-search h2{
+    margin-bottom: 0px;
+}
+#town-search p{
+    margin-top: 5px;
 }
 #town-search nav{
     display: flex;
