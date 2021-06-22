@@ -95,6 +95,7 @@ article#Activités h3{
     /* respoinsive activity*/
     #activities{
         width: 100%;
+        padding: 10px;
     }
     #activities h3{
         margin-top: 20px;
@@ -149,7 +150,7 @@ article#Activités h3{
 @media (min-width: 767px) and (max-width: 1024px ){
     #activities{
         width: 100%;
-        padding-left: 10px;
+        padding: 10px;
     }
     ul#activity-list{
         grid-template-columns: 1fr 1fr;
