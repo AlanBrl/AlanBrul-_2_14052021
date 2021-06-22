@@ -167,6 +167,10 @@ ul#popular-list{
         padding: 10px;
         border-radius: 0px;
     }
+    #title .fa-chart-line{
+        position: relative;
+        left: -25px;
+    }
     ul#popular-list{
         padding-left: 0px;
         display: flex;
