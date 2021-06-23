@@ -11,6 +11,10 @@
     height: 200px;
     width: 30%;
 }
+.accomodation:hover{
+    transition-duration: 400ms;
+    transform: scale(1.05);
+}
 
  ul{
      list-style: none;
@@ -88,7 +92,15 @@ aside{
 }
 .popular{
     width: 350px;
-    height: 140px;
+    height: 136px;
+}
+.popular:hover{
+    transition-duration: 400ms;
+    transform: scale(1.05);
+}
+.popular .accomodation-info h3{
+    margin: 0;
+    padding-top: 10px;
 }
 ul#popular-list{
     padding:0px;
