@@ -299,7 +299,7 @@ h3{
     }
 }
 /*responsive tablette*/
-@media (min-width: 767px) and (max-width: 1024px ){
+@media (min-width: 767px) and (max-width: 1366px ){
     body{
         width: 100%;
         padding: 0px;
