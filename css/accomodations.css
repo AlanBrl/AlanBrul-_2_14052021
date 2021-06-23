@@ -1,6 +1,6 @@
 .accomodation, .popular{
     background-color: #ffffff;
-    border: solid 5px #ffffff;
+    border: solid 5px transparent;
     border-radius: 25px;
     box-shadow: 0px 9px 30px -20px black;
     cursor: pointer;
