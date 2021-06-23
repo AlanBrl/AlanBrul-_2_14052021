@@ -9,7 +9,7 @@
 .accomodation {
     background-color: #ffffff;
     height: 200px;
-    width: 30%;
+    width: 29%;
 }
 .accomodation:hover{
     transition-duration: 400ms;
@@ -161,7 +161,7 @@ ul#popular-list{
     }
 }
 /*responsive tablette*/
-@media (min-width: 767px) and (max-width: 1024px){
+@media (min-width: 767px) and (max-width: 1366px){
     section{
         flex-direction: column-reverse;
         width: 100%;
