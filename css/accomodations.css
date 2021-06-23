@@ -63,7 +63,7 @@
  .accomodation-info{
      padding-left: 15px;
  }
-section{
+#accomodations{
     display: flex;
     margin-bottom: 20px;
     padding-top: 30px;
@@ -117,8 +117,8 @@ ul#popular-list{
 }
     /*responsive mobile*/
 @media (max-width: 767px ){
-    /*responsive section*/
-    section{
+    /*responsive accomodations*/
+    #accomodations{
         flex-direction: column-reverse;
         margin-left: 0px;
         padding-left: 0px;
@@ -162,7 +162,7 @@ ul#popular-list{
 }
 /*responsive tablette*/
 @media (min-width: 767px) and (max-width: 1366px){
-    section{
+    #accomodations{
         flex-direction: column-reverse;
         width: 100%;
         align-items: center;
